@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ваш-логин/my-repo.git'
+                git 'https://github.com/a1exspb/sdvps-materials.git'
             }
         }
         stage('Test') {
