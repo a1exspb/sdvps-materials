@@ -1,4 +1,4 @@
-FROM golang:1.16 AS builder
+FROM golang:1.24 AS builder
 
 # Copy the code from the host and compile it
 WORKDIR $GOPATH/src/github.com/a1exspb/sdvps-materials
