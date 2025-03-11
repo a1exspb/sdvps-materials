@@ -6,9 +6,9 @@ pipeline {
                 git 'https://github.com/a1exspb/sdvps-materials.git'
             }
         }
-        stage('Test') {
+        stage('Build') {
             steps {
-                sh 'go test .'
+                sh 'docker build . -t ubuntu-bionic:8082/hello-world:v$BUILD_NUMBER'
             }
         }
     }
