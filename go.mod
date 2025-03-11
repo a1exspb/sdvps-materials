@@ -1,3 +1,3 @@
-module github.com/netology-code/sdvps-materials
+module github.com/A1ex93/sdvps
 
-go 1.16
+go 1.24
